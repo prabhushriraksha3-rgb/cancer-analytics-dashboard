@@ -1,0 +1,12 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="Cancer Analytics Dashboard",
+    page_icon="🩺",
+    layout="wide"
+)
+
+st.image("assets/logo.png", width=250)
+
+st.title("🩺 Cancer Analytics Dashboard")
+st.write("Interactive Cancer Data Analysis and Prediction System")
